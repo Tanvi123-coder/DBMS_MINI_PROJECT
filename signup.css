@@ -1,0 +1,18 @@
+/* for admin signup page */
+#admin-signup{
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9TEW9S4c6IPeWDVbl0cv2wERZPZfkJQrNaA&usqp=CAU); */
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/33/80/dark-background-cartoon-shopping-mall-building-vector-27703380.jpg);
+     background-size: cover;
+     color: white;
+   }
+  .signup{
+      margin-left: 250px;
+      margin-right: 250px;
+      margin-top: 100px;
+  }
+  nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
+}

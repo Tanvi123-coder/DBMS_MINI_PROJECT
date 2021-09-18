@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1597047084993-bf337e09ede0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover; 
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+}
+nav ul li:hover{
+    background-color: #90d5eb;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
+}
+nav b{
+    color:rgb(130, 158, 209);
+    font-size: 25px;
+    text-decoration: underline;
+    
+    
+}
+nav img{
+    float: left;
+}
+.container{
+    height: 300;
+    background-color:black;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: tomato;
+    text-align: center;
+    background-color: rgb(247, 247, 162);
+    
+}
+
+.container{
+    width: 100%;
+    height: 75vh;
+  /*  background-image: url(https://previews.123rf.com/images/o0matze0o/o0matze0o1507/o0matze0o150700004/42067274-website-and-internet-contact-us-page-concept-with-icons-on-a-keyboard.jpg);
+    background-size: cover;  */
+    background-color: rgb(223, 204, 238);
+    
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(72, 54, 235);
+    text-decoration: underline;
+}
+.container p{
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 35px;
+    color: rgb(124, 3, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.footer{
+    background-image: url(https://grid.gograph.com/dark-green-grunge-background-vector-art_gg62798854.jpg);
+    background-size: cover;
+    height: 13vh;
+}
+.footer p{
+    color: rgb(228, 161, 208);
+    font-size:33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+}
+span{
+    color: rgb(228, 161, 208);
+    font-size:15px;
+    margin-left: 300px;
+    
+}
+.footer{
+    color: turquoise;
+
+}
+i{
+    float: right;
+    margin-right: 40px;
+}

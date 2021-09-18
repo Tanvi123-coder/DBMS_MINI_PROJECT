@@ -1,0 +1,139 @@
+body{
+    font-family: 'Roboto', sans-serif;
+   background-image: url(https://www.sminnovations.co/storage/blogs_image/can_a_mobile_app_improve_your_business_29_03_2019.jpg);
+    background-size: cover; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+}
+nav ul li:hover{
+    background-color: #90d5eb;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
+}
+nav b{
+    color:rgb(130, 158, 209);
+    font-size: 25px;
+    text-decoration: underline;
+    
+    
+}
+nav img{
+    float: left;
+}
+
+
+
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    background: #042331;
+    height: 100%;
+    transition: all .5s ease;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px; 
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    transition: .4s;
+}
+.sidebar ul li{
+    display: block;
+    color:#042331;
+
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
+}
+label #btn{
+    left: 50px;
+    top: 85px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 85px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+#check:checked ~ section{
+    margin-left: 250px;
+}
+.panel{
+    background-image: url(https://fsa.zobj.net/crop.php?r=_8WO-p34b-QxcgupzOhHDOWOzOi1WDZV10vV22i1Ht2E50cemYQOnFFVr2HusszRlsQx_Xe5-u6msKiFTsjejiLn0IgkkuIWGqAzuY5pwVVrEmBZIcS3KjOCLvbhc62eQz-ywHaequRYcCwXUlNJ2A3DzkQGy3WrgmMJOoCtJh9UV8W-GFrVsP-kQq6HLROEYAww63OH0YyrvIuw) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5ss;
+}

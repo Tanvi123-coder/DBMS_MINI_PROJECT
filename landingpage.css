@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg, #c8defc, #af7cf1) ;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+.logo{
+    height: 55px;
+    margin: 10px 10px;
+}
+
+header{
+    text-align: center;
+    font-size: 20px;
+}
+
+.choice-heading{
+    text-align: center;
+    margin: 25px;
+}
+
+.cards-wrapper {
+    align-items: center;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin:80px 450px;
+}
+
+.card {
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+}
+
+.card a i{
+    color: rgb(19, 10, 39);
+}
